@@ -1190,3 +1190,20 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+.custom-button {
+  display: inline-block;
+  background-color: #4CAF50; /* Green background color */
+  color: white;
+  padding: 10px 20px; /* Adjust padding as needed */
+  border-radius: 10px; /* Rounded corners */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Style for the button on hover (optional) */
+.custom-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
